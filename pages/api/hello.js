@@ -1,5 +1,5 @@
 export default (req, res) => {
   res.status(200).json({
-    text: "Hello" + req.body,
+    text: "Hello another change" + req.body,
   });
 };
